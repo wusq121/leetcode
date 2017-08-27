@@ -56,5 +56,4 @@ public class LongestPalindromicSubstring {
 		System.out.println("longest:" + l.LongestPalindrome1(s));
 		System.out.println("longest fast:" + l.LongestPalindrome2(s));
 	}
-
 }
