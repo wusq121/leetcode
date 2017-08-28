@@ -10,7 +10,7 @@ public class ReverseInt {
 			res = res * 10 + t % 10;
 			t /= 10;
 		}
-		res = (x > 0) ? res : -res;
+		res = (x > 0) ? res : 0-res;
 		if((res > Integer.MAX_VALUE)||(res < Integer.MIN_VALUE))
 			return 0;
 		return (int)res;
